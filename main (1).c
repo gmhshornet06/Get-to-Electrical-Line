@@ -22,6 +22,9 @@ int main ()
         	msleep(10);
     	}
     	create_stop();
+	mav(0,500);
+	msleep(3000);
+	ao();
     	create_disconnect();
     	return 0;
 }
